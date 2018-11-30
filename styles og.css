@@ -1,0 +1,137 @@
+body{
+    background-color: navy;
+}
+figure{
+    margin: 20px 5px;
+}
+.wrapper{
+    background-color: lightblue;
+    margin-top: 80px;
+    width:  97%;
+}
+header{
+    min-height: 100vh;
+    overflow: auto;
+    padding: 15px;
+}
+header figure{
+     float: right;
+     width: 100%;
+}
+header figure img{
+     border: 1px solid black;
+     border-radius: 50%;
+     width: 100%;
+}
+header article{
+     float: left;
+     width: 45%;
+}
+header h1{
+   font-size: 30px;
+   padding-top: 20px;
+}
+nav{
+    background-color: navy;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+#about article{
+    float: left;
+}
+#about figure{
+    padding-top: 30px;
+   float: right;
+}
+nav ul li{ 
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    background-color: white;
+    font-size: .75em;
+}
+section{
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-left: 10px;
+    overflow: auto;
+}
+section:nth-child(even){
+    background-color: white;
+}
+#sandwiches figure{
+    text-align: center;
+}
+#sandwiches figure img{
+   width: 90%;
+   height: 90%;
+}
+#sandwiches article{
+   display: inline-block;
+   width: 300px;
+   background-color: lightblue;
+   padding: 5px 30px;
+   margin: 5px 30px;
+   vertical-align: top;   
+   overflow: auto; 
+}
+#crew article{
+    display: inline-block;  
+    width: 376px;
+    padding: 0px 20px;
+}
+#crew article p img{   
+    width: 200px;      
+    float: left;      
+    margin: 0px 10px;
+}
+footer{
+     background-color: white;
+}
+footer ul{
+    list-style-type: none;    
+}
+@media only screen and (min-width: 885px){
+      nav ul li a{
+            padding: 10px 45px;
+            font-size: 1.5em;
+}
+textarea{
+    width: 90%;
+    height: 400px;
+}
+@media only screen and (min-width: 550px) {
+    nav ul li a{
+        padding: 10px 25px;
+        font-size: 1em; 
+    }
+    header article{
+    float: left;
+    width: 45%;
+    }
+    header figure{
+    float: right;
+    width: 45%;
+    }
+    #about article{
+    float: left;
+    width: 45%;
+    }
+    #about figure{
+    padding-top: 30px;
+    float: right;
+    width: 45%;
+    }
+    #sandwiches article{
+       width: 23%;
+    }
+    #crew article{
+      width: 375px;
+    }
+    #crew article p img{
+    width: 200px;
+    }
